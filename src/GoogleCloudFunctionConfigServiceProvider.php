@@ -1,6 +1,6 @@
 <?php
 
-namespace asifm83\LaravelGoogleCloudFunctionConfig;
+namespace Rverrips\LaravelGoogleCloudFunctionConfig;
 
 use RuntimeException;
 use Illuminate\Encryption\Encrypter;
