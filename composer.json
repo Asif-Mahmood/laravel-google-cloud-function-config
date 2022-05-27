@@ -1,5 +1,5 @@
 {
-    "name":"rverrips/laravel-google-cloud-function-config",
+    "name":"asif/laravel-google-cloud-function-config",
     "description":"Basic Configuration for running Laravel as a native php Google Cloud Function",
     "keywords":[
        "package",
@@ -11,8 +11,8 @@
     "license":"MIT",
     "authors":[
        {
-          "name":"Roy Verrips",
-          "email":"roy@verrips.org"
+          "name":"Asif",
+          "email":"asif.mahmood@gmail.com"
        }
     ],
     "require":{
@@ -23,13 +23,13 @@
     },
     "autoload":{
        "psr-4":{
-          "Rverrips\\LaravelGoogleCloudFunctionConfig\\":"src"
+          "asif\\LaravelGoogleCloudFunctionConfig\\":"src"
        }
     },
     "extra":{
        "laravel":{
           "providers":[
-             "Rverrips\\LaravelGoogleCloudFunctionConfig\\GoogleCloudFunctionConfigServiceProvider"
+             "asif\\LaravelGoogleCloudFunctionConfig\\GoogleCloudFunctionConfigServiceProvider"
           ]
        }
     },
