@@ -1,5 +1,5 @@
 {
-    "name":"asif/laravel-google-cloud-function-config",
+    "name":"asifm83/laravel-google-cloud-function-config",
     "description":"Basic Configuration for running Laravel as a native php Google Cloud Function",
     "keywords":[
        "package",
@@ -23,13 +23,13 @@
     },
     "autoload":{
        "psr-4":{
-          "asif\\LaravelGoogleCloudFunctionConfig\\":"src"
+          "asifm83\\LaravelGoogleCloudFunctionConfig\\":"src"
        }
     },
     "extra":{
        "laravel":{
           "providers":[
-             "asif\\LaravelGoogleCloudFunctionConfig\\GoogleCloudFunctionConfigServiceProvider"
+             "asifm83\\LaravelGoogleCloudFunctionConfig\\GoogleCloudFunctionConfigServiceProvider"
           ]
        }
     },
