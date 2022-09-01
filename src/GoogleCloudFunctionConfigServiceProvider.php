@@ -25,9 +25,9 @@ class GoogleCloudFunctionConfigServiceProvider extends ServiceProvider
         }
 
         // The rest below is specific to the Google Cloud Function environment
-        //if (! $isRunningGoogleCloudFunction) {
-        //    return;
-        //}
+        if (! $isRunningGoogleCloudFunction) {
+            return;
+        }
 
         // Set base Storage path to tmp (writable) directory in Google Cloud Function
         Config::set('storagePath', '/tmp/storage');
